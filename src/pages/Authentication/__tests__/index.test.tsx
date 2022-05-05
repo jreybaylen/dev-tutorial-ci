@@ -15,8 +15,8 @@ describe('Authentication Page', () => {
         expect(screen.getByText('Hello Authentication!')).toMatchSnapshot()
     })
 
-    it('should call "onClick" prop once the user tapped the button', async () => {
-        await userEvent.click(screen.getByText('Click Me!'))
-        expect(handleSubmit).toHaveBeenCalled()
-    })
+    // it('should call "onClick" prop once the user tapped the button', async () => {
+    //     await userEvent.click(screen.getByText('Click Me!'))
+    //     expect(handleSubmit).toHaveBeenCalled()
+    // })
 })
