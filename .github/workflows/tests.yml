@@ -3,7 +3,7 @@ name: React with Jest CI
 on:
   pull_request:
     branches:
-      - main
+      - stable
 
 jobs:
   test-coverage:
